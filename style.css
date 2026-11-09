@@ -118,7 +118,7 @@
   .placeholder{background:#fbf3dc}
 
   /* poetry: the artist's own crayon artwork, blended into the background */
-  :root{--crayon:url("images/maames-oracle.jpg")}
+  :root{--crayon:url("maames-oracle.jpg")}
   #poetry{position:relative;padding:0;overflow:hidden;border-top:0;
     background:linear-gradient(rgba(20,18,16,.55),rgba(20,18,16,.55)),var(--crayon) center/cover no-repeat,#1c1c1c}
   #poetry::before{content:"";position:absolute;inset:0;pointer-events:none;
