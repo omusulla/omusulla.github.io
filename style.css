@@ -81,8 +81,7 @@
   footer h3{margin:0 0 8px;color:var(--ink)}
   .contact a{margin-right:16px}
 
-  /* Nandiri palette overrides */
-  nav{background:var(--accent-dark);border-bottom:5px solid transparent;border-image:var(--rainbow) 1}
+    nav{background:var(--accent-dark);border-bottom:5px solid transparent;border-image:var(--rainbow) 1}
   .links a{color:#d9d6d0}
   .hero-band{background:var(--accent-dark);color:#eeeae4;border-bottom:0}
   .hero-band h1,.hero-band .logo{color:#fff}
@@ -111,14 +110,12 @@
   footer{background:var(--accent-dark);color:#bdb7ae;border-top:0}
   footer h3{color:#fff}
   footer a{color:#f6d77a}
-  /* fading beige */
-  body{background:#f5efe6}
+    body{background:#f5efe6}
   .card{background:#fbf8f2}
   .art .frame{background:#ece3d4}
   .placeholder{background:#fbf3dc}
 
-  /* poetry: the artist's own crayon artwork, blended into the background */
-  :root{--crayon:url("maames-oracle.jpg")}
+    :root{--crayon:url("maames-oracle.jpg")}
   #poetry{position:relative;padding:0;overflow:hidden;border-top:0;
     background:linear-gradient(rgba(20,18,16,.55),rgba(20,18,16,.55)),var(--crayon) center/cover no-repeat,#1c1c1c}
   #poetry::before{content:"";position:absolute;inset:0;pointer-events:none;
@@ -127,8 +124,7 @@
   @media (max-width:680px){#poetry{padding:0 14px}#poetry .wrap{padding:44px 22px}}
   .art .frame.crayon{background:var(--crayon) center/cover no-repeat}
 
-  /* gallery: whole artworks, natural proportions */
-  .gallery{grid-template-columns:1fr 1fr;gap:36px 28px;align-items:end}
+    .gallery{grid-template-columns:1fr 1fr;gap:36px 28px;align-items:end}
   @media (max-width:680px){.gallery{grid-template-columns:1fr}}
   .art .frame{aspect-ratio:auto;background:#ece3d4;border:1px solid var(--line);padding:16px;display:block}
   .art .frame img{width:100%;height:auto;object-fit:initial;box-shadow:none}
@@ -138,12 +134,10 @@
   @media (max-width:680px){.art.mid{width:100%}}
   .art figcaption span{display:block;margin-top:4px;color:var(--ink);font-size:14.5px;line-height:1.5}
 
-  /* hero photo larger */
-  .hero{grid-template-columns:1fr 290px}
+    .hero{grid-template-columns:1fr 290px}
   .portrait{width:290px;height:348px}
   @media (max-width:680px){.hero{grid-template-columns:1fr}.portrait{width:240px;height:288px}}
-  /* poetry intro photo + featured poem */
-  .poet-intro{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;margin-bottom:40px}
+    .poet-intro{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:center;margin-bottom:40px}
   @media (max-width:680px){.poet-intro{grid-template-columns:1fr}.poet-photo{max-width:220px}}
   .poet-photo{width:100%;border:3px solid #f2b51c;}
   #poetry .poet-intro .sub{margin-bottom:10px}
@@ -153,7 +147,6 @@
   #poetry .poem.featured h3{font-size:26px;margin:0 0 18px;color:#fff}
   #poetry .poem.featured pre{color:#ece7df;font-size:17.5px;line-height:1.85}
 
-/* multi-page additions */
 .links a[aria-current="page"]{color:#fff;text-decoration:underline;text-underline-offset:6px;text-decoration-color:#f2b51c}
 section.first{border-top:0}
 .teasers{gap:28px}
@@ -187,7 +180,6 @@ details[open] summary{margin-bottom:22px}
 .bridge{text-align:center;padding:48px 40px}
 .bridge p{padding-left:0;margin:0 auto;max-width:720px}
 
-/* circular photo frames */
 .portrait{width:300px;height:300px;border-radius:50%;overflow:hidden;border:4px solid #f2b51c}
 .portrait img{object-position:50% 22%}
 @media (max-width:680px){.portrait{width:240px;height:240px}}
