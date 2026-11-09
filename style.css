@@ -1,8 +1,9 @@
+@font-face{font-family:"CurlyQuotes";src:local("Georgia");unicode-range:U+2018-201D}
 :root{--ink:#1d1d1f;--muted:#5d5a57;--accent:#c62a26;--accent-dark:#1c1c1c;--tint:#ece3d4;--line:#ddd2c1;--gold:#f2b51c;--blue:#2457b5;--rainbow:linear-gradient(90deg,#d62b27 0%,#f07a1a 18%,#f6c21c 36%,#3aa04a 54%,#2457b5 72%,#5b2a86 88%,#1c1c1c 100%)}
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{margin:0;background:#fff;color:var(--ink);font:16.5px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-  h1,h2,h3,.logo{font-family:Georgia,"Times New Roman",serif}
+  body{margin:0;background:#fff;color:var(--ink);font:16.5px/1.65 "CurlyQuotes",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+  h1,h2,h3,.logo{font-family:"CurlyQuotes",Georgia,"Times New Roman",serif}
   a{color:var(--accent)}
   img{max-width:100%;display:block}
   .wrap{max-width:900px;margin:0 auto;padding:0 24px}
